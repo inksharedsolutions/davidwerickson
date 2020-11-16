@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'gatsby'
 import '../assets/scss/pages.scss'
-import BannerImg from '../../static/banner/img_banner.png'
+import BannerImg from '../../static/img/book_cover.png'
 
 const Banner = (props) =>{
 
@@ -40,7 +40,7 @@ const Banner = (props) =>{
                                 </div>
 
                                 <div className="right-col banner-img">
-                                    {/* <img src={BannerImg}/> */}
+                                    <img src={BannerImg}/>
                                 </div>
                             </div>
                         </div>

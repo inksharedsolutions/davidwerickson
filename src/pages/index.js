@@ -24,8 +24,11 @@ const IndexPage = (props) =>{
     <>
       <Nav/>
       <Banner isFront={true} />
-      <UpperMain/>
+      <br/>
+      <br/>
+      <br/>
       <MidMain/>
+      {/* <UpperMain/> */}
       <LowerMain/>
       <Footer/>
     </>
