@@ -24,15 +24,13 @@ const Banner = (props) =>{
                                             <span>THE BEGINNING</span>
                                         </h1>
                                         <p>
-
-                                            Fun to read, great family story!
                                             
                                             <span className="span-tag-review">
                                                 David W. Erickson
                                             </span>
                                         </p>
                                         <button>
-                                            <Link to="/about-the-book#beliefs">
+                                            <Link to="/about-the-book">
                                                 Read More
                                             </Link>
                                         </button>

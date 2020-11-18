@@ -34,16 +34,16 @@
     }
 
     p{
-        &:before{
-            content: '';
-            width: 3px;
-            background: #d6a26c;
-            position: relative;
-            display: inline-block;
-            height: 27px;
-            margin: 16px 13px;
-            transform: translateY(24px);
-        }
+        // &:before{
+        //     content: '';
+        //     width: 3px;
+        //     background: #d6a26c;
+        //     position: relative;
+        //     display: inline-block;
+        //     height: 27px;
+        //     margin: 16px 13px;
+        //     transform: translateY(24px);
+        // }
     }
 
     .span-tag-review{
@@ -97,19 +97,19 @@
         z-index: 10;
     }
 
-    &:before{
-        content: '';
-        width: 406px;
-        background: #2a2a2a;
-        position: absolute;
-        display: block;
-        height: 93vh;
-        margin: 0px AUTO;
-        right: 15vw;
-        top: 0;
-        z-index: 1;
+    // &:before{
+    //     content: '';
+    //     width: 406px;
+    //     background: #2a2a2a;
+    //     position: absolute;
+    //     display: block;
+    //     height: 93vh;
+    //     margin: 0px AUTO;
+    //     right: 15vw;
+    //     top: 0;
+    //     z-index: 1;
         
-    }
+    // }
 }
 
 .letter-sf-first{
