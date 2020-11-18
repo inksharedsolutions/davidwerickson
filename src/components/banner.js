@@ -18,7 +18,7 @@ const Banner = (props) =>{
                                 <div className="left-col">
                                     <div className="banner-content-wrapper">
                                         <h1>
-                                            <span>THE FRAKLIN FAMILY ODYSSEY</span>
+                                            <span>THE FRANKLIN FAMILY ODYSSEY</span>
                                             <span>HOMESTEADING</span>
                                             <span>IN ALASKA</span> 
                                             <span>THE BEGINNING</span>

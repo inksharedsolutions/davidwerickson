@@ -11,7 +11,7 @@ const AboutTheBook= (props) =>{
 
 	const slug =(props.location.href);
 	const disqusConfig = {
-	  shortname: 'david-e-erickson',
+	  shortname: 'david-w-erickson',
 	  config: { identifier:  12, slug}
 	}
 
@@ -41,21 +41,31 @@ const AboutTheBook= (props) =>{
 
 						<BookInfo
 							data={{
-								title:`Like A Lady`,
-								spanTitle: '',
+								title:`The Franklink Family Odyssey `,
+								spanTitle: 'HOMESTEADING IN ALASKA, The Beginning',
 								imgSrc: Book1,
 								id:'susies_submisision',
 								content:
 								`
-								The Franklin family began its odyssey in Northern California in the early forties. After being married in Southern California, they moved north and built a log cabin in Northern California. Within a year of their marriage, the family had a little boy, Johnny. A couple years later, the twins, Donald and Denny, were born. This is when Johnny started having his “dream.” 
+								<p>
+								The Franklin family began its odyssey in Northern California in the early 40's. After being married in Southern California they moved north and built a log cabin in Northern California. Within a year of their marriage, the family had a little boy, Johnny. A couple years later twins, Donald and Denny, were born. This is when Johnny started having his "dream." 
+								</p> 
 
-								The book tells stories of Johnny and his brothers as they grow up. Later, the eldest son, Johnny, gets married and he and his in-laws, Jack and Mary Jones, decide to move to Alaska and homestead there.
+								<p>
+								The book tells stories of Johnny and his brothers as they grow up. Later the eldest son (Johnny) gets married and he and his in-laws, Jack and Mary Jones, decide to move to Alaska and homestead there.
+								</p>
 
-								A little while after the Joneses and Johnny arrives in Alaska, the rest of the Franklin family decides to come north as well. Within a year, the Joneses and Franklins had built two cabins and Becka, Johnny’s wife, had a little baby, little Johnny. 
+								<p>
+								A little while after the Jones and Johnny arrived in Alaska, the rest of the Franklin family decided to come north as well. Within a year the Jones and Franklins had built two cabins and Becka, Johnny's wife had a little baby, little Johnny.
+								</p>
 
-								The families struggle through rough winters, wet springs, and illnesses. Injuries occurred and Johnny kept dreaming the same dream. 
+								<p>
+								The families struggle through rough winters, wet springs and illnesses. Injuries occurred and Johnny kept dreaming the same dream. 
+								</p>
 
-								Later in the title came the deadly hunt, the house fire, and the miracle. This book is the first in a series called “The Franklin Family Odyssey.”
+								<p>
+								Later in the title came the deadly hunt, the house fire and the miracle. This book is the first in a series called 'The Franklin Family Odyssey.'
+								</p>
 								`,
 
 								ebooks:{

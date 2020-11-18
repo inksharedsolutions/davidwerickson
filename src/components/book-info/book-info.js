@@ -17,9 +17,8 @@ const BookInfo = (props)=>{
 
                         <h1>{props.data.title}</h1>
                         <span>{props.data.spanTitle}</span>
-                        <p>
-                            {props.data.content}
-                        </p>
+                        <div className="content-body" 
+                             dangerouslySetInnerHTML={{__html: `${props.data.content}`}} />
                     </section>
 
                     <section className="fullSection">

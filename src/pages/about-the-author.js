@@ -33,7 +33,7 @@ import AuthorImg from '../../static/img/main_author.png'
                                 “Adventures in the Great Land”
                                 </h4>
                                 
-                                <span className="ata-span-fx">author quote</span>
+                                <span className="ata-span-fx"></span>
                             </div>
 
 

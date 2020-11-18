@@ -14,7 +14,7 @@ const LowerMain = ()=>{
 
                         <div className="wrapper-auth-content">
                             <p>
-                            David was born into a preacher’s home in the late forties. He moved to Alaska as a married man in 1981. He was always an adventurer. In the eighties, he staked an Alaskan homestead of forty acres and built a log cabin that next winter.
+                            I was born in Niagara Falls, Canada where we lived, and I went to public school until I was 13 when we moved to Fort Erie a town across the Niagara River from Buffalo NY. I finished Public School and went to Fort Erie High school. I quit high school halfway through grade nine and started working.
                             </p>
 
                             <h1>David W. Erickson</h1>
