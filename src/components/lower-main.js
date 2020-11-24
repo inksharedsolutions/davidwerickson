@@ -14,7 +14,7 @@ const LowerMain = ()=>{
 
                         <div className="wrapper-auth-content">
                             <p>
-                            I was born in Niagara Falls, Canada where we lived, and I went to public school until I was 13 when we moved to Fort Erie a town across the Niagara River from Buffalo NY. I finished Public School and went to Fort Erie High school. I quit high school halfway through grade nine and started working.
+                            Yvonne Watts, and Janice and David.  A few years later we adopted Reyna Reyes and Janice and I moved back to Alaska in the early 90’s.
                             </p>
 
                             <h1>David W. Erickson</h1>
