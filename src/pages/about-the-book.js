@@ -42,7 +42,7 @@ const AboutTheBook= (props) =>{
 						<BookInfo
 							data={{
 								title:`The Franklin Family Odyssey `,
-								spanTitle: 'HOMESTEADING IN ALASKA, The Beginning',
+								spanTitle: 'HOMESTEADING IN ALASKA; The Beginning',
 								imgSrc: Book1,
 								id:'susies_submisision',
 								content:
