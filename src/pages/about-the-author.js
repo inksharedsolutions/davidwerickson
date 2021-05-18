@@ -82,9 +82,9 @@ import AuthorImg from '../../static/img/main_author.png'
                             </p>
 
 			   <p>
-				<a href="http://davidericksonmusic.com"/>
-				<a href="http://N1M.com/daviderickson"/>
-				<a href="David Erickson | indiegospel.net"/>
+				<a href="http://davidericksonmusic.com/">http://davidericksonmusic.com</a>
+				<a href="https://www.n1m.com/daviderickson">https://www.n1m.com/daviderickson</a>
+				<a href="https://indiegospel.net/david-erickson/">https://indiegospel.net/david-erickson/</a>
 			   </p>
 
                             <p>
