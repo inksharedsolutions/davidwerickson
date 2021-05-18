@@ -81,6 +81,12 @@ import AuthorImg from '../../static/img/main_author.png'
                             This isn’t the end for David Erickson.  Janice and I work full time jobs here in Carson.  Since we moved here, my two younger brothers, Jonathan, and Daniel, passed away from ailments they had acquired.  Mom died a few months later of natural causes.
                             </p>
 
+			   <p>
+				<a href="http://davidericksonmusic.com"/>
+				<a href="http://N1M.com/daviderickson"/>
+				<a href="David Erickson | indiegospel.net"/>
+			   </p>
+
                             <p>
                                 <span className="author-name">
                                     <span className="author-span-ft">Author |  Writer </span>
