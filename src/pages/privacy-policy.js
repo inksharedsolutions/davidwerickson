@@ -3,22 +3,23 @@ import Layout from '../components/layout'
 import Banner from '../components/banner'
 import { useStaticQuery, graphql } from "gatsby"
 import Parser from 'html-react-parser';
+import { Helmet } from 'react-helmet';
 
 const Pp = (props) =>{
 
 
-	const bannerText = (
-		<>
-			<span className="banr-tagline-fx">
-				Valentine Cardinale
-			</span>
+	// const bannerText = (
+	// 	<>
+	// 		<span className="banr-tagline-fx">
+	// 			Valentine Cardinale
+	// 		</span>
 
-			<h1 className="banr-header-fx">
-				Privacy
-				<span className="banr-spn-highlight">Policy</span>
-			</h1>
-		</>
-	)
+	// 		<h1 className="banr-header-fx">
+	// 			Privacy
+	// 			<span className="banr-spn-highlight">Policy</span>
+	// 		</h1>
+	// 	</>
+	// )
 
 
 	const FetchMarkDown = useStaticQuery(graphql`
@@ -39,7 +40,7 @@ const Pp = (props) =>{
 	return(
 		<>
 		 	<Layout extPath={false}>
-
+				<Helmet title="Privacy Policy | David Erickson" />
                 <Banner 
                     spanFirst={`Privacy`}
                     contextHeading={`Policy`} 

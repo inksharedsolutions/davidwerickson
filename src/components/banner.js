@@ -5,7 +5,7 @@ import BannerImg from '../../static/img/book_cover.png'
 
 const Banner = (props) =>{
 
-    const isFront =props.isFront;
+    // const isFront =props.isFront;
     return(
         <>
 
@@ -38,7 +38,7 @@ const Banner = (props) =>{
                                 </div>
 
                                 <div className="right-col banner-img">
-                                    <img src={BannerImg}/>
+                                    <img src={BannerImg} alt="Homesteading in Alaska"/>
                                 </div>
                             </div>
                         </div>

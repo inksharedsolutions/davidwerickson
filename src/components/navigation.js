@@ -6,34 +6,34 @@ const Nav = (props) =>{
 	const refSpan  = useRef();
 	const [toggled, setToggled] = useState(false);
 
-	const pages = [
-		 'Home',
-		 'About-the-Author', 
-		 'About-the-Book', 
-		 'Contact'
-	]
+	// const pages = [
+	// 	 'Home',
+	// 	 'About-the-Author', 
+	// 	 'About-the-Book', 
+	// 	 'Contact'
+	// ]
 
-	function capitalize(string) {
-		return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
-	}
+	// function capitalize(string) {
+	// 	return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+	// }
 	
 
-	let Listed = pages.map((e) =>{
+	// let Listed = pages.map((e) =>{
  		
-		var newUrl = ((e).replace(/[ /]/g,"-").trim().toLowerCase());
-		let filterUrl = (newUrl === 'home') ? '/' : newUrl;
+	// 	var newUrl = ((e).replace(/[ /]/g,"-").trim().toLowerCase());
+	// 	let filterUrl = (newUrl === 'home') ? '/' : newUrl;
 
-		const res = e.replace(/[-/]/g," ").trim();
+	// 	const res = e.replace(/[-/]/g," ").trim();
 	
-		return (
-			<li>
-				<Link 
-					to={filterUrl}>
-					{res}
-				</Link>
-			</li>
-		)
-	})
+	// 	return (
+	// 		<li>
+	// 			<Link 
+	// 				to={filterUrl}>
+	// 				{res}
+	// 			</Link>
+	// 		</li>
+	// 	)
+	// })
 
 	const clickEvent = (e)=> {
 		setToggled(!toggled);

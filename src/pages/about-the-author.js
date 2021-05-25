@@ -3,13 +3,14 @@ import Banner from '../components/banner'
 import '../assets/scss/pages.scss'
 import Layout from '../components/layout'
 import AuthorImg from '../../static/img/main_author.png'
+import {Helmet} from 'react-helmet';
 
  const AboutTheAuthor = (props)=>{
 
      return(
         <> 
             <Layout extPath={false}>
-
+                <Helmet title="About the Author | David Erickson" />
                 <Banner 
                     spanFirst={`About the`}
                     contextHeading={`Author`} 
@@ -24,7 +25,7 @@ import AuthorImg from '../../static/img/main_author.png'
                         <center>
                         <div className="heading-quote">
                             <div className="author-image-container">
-                                <img src={AuthorImg} />
+                                <img src={AuthorImg} alt="David Erickson"/>
                             </div>
                         </div>
                         </center>

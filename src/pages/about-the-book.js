@@ -5,7 +5,8 @@ import { DiscussionEmbed } from "disqus-react"
 import Layout from '../components/layout'
 import Banner from '../components/banner'
 import BookInfo  from '../components/book-info/book-info'
-import ABA from './about-the-author'
+// import ABA from './about-the-author'
+import { Helmet } from 'react-helmet'
 
 const AboutTheBook= (props) =>{
 
@@ -15,19 +16,19 @@ const AboutTheBook= (props) =>{
 	  config: { identifier:  12, slug}
 	}
 
-	const bannerText = (
-		<>	
-			<span className="banr-tagline-fx">David W. Erickson</span>
-			<h1 className="banr-header-fx">
-				About the
-				<span className="banr-spn-highlight">Book</span>
-			</h1>
-		</>
-	)
+	// const bannerText = (
+	// 	<>	
+	// 		<span className="banr-tagline-fx">David W. Erickson</span>
+	// 		<h1 className="banr-header-fx">
+	// 			About the
+	// 			<span className="banr-spn-highlight">Book</span>
+	// 		</h1>
+	// 	</>
+	// )
 
 	return(
 		<Layout extPath={false}>
-			
+			<Helmet title="About the Book | David Erickson" />
             <Banner 
 				spanFirst={`About the`}
 				contextHeading={`Book`}

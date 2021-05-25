@@ -4,19 +4,20 @@ import Banner from '../components/banner'
 
 import { useStaticQuery, graphql } from "gatsby"
 import Parser from 'html-react-parser';
+import { Helmet } from 'react-helmet';
 
 const TaC = (props) =>{
 
 
-	const bannerText = (
-		<>
-			<span className="banr-tagline-fx">Valentine Cardinale</span>
-			<h1 className="banr-header-fx"> 
-				Terms And
-				<span className="banr-spn-highlight">Conditions</span>
-			</h1>
-		</>
-	)
+	// const bannerText = (
+	// 	<>
+	// 		<span className="banr-tagline-fx">Valentine Cardinale</span>
+	// 		<h1 className="banr-header-fx"> 
+	// 			Terms And
+	// 			<span className="banr-spn-highlight">Conditions</span>
+	// 		</h1>
+	// 	</>
+	// )
 
 	const FetchMarkDown = useStaticQuery(graphql`
 		 query TermsAndConditionsPageQuery  {
@@ -37,6 +38,7 @@ const TaC = (props) =>{
 	return(
 	 	<>
 	 		<Layout extPath={false}>
+				 <Helmet title="Terms and Conditions | David Erickson" />
                     <Banner 
                             spanFirst={`Terms And`}
                             contextHeading={`Conditions`} 

@@ -20,6 +20,7 @@ const Footer = ()=>{
                         <ul>
                             <li>
                                 <a href="https://www.facebook.com/David-W-Erickson-113384457040248/"
+                                rel="noreferrer"
                                    target="_blank">
                                     <FontAwesomeIcon
                                         className='font-awesome'
@@ -30,6 +31,7 @@ const Footer = ()=>{
                             <li>
                                 <a 
                                     target="_blank"
+                                    rel="noreferrer"
                                     href="https://twitter.com/strattonpress/">
                                     <FontAwesomeIcon
                                         className='font-awesome'
@@ -40,6 +42,7 @@ const Footer = ()=>{
                             <li>
                                 <a  
                                     target="_blank"
+                                    rel="noreferrer"
                                     href="https://www.instagram.com/strattonpress/">
                                     <FontAwesomeIcon
                                         className='font-awesome'
@@ -49,6 +52,7 @@ const Footer = ()=>{
                             <li>
                                 <a 
                                     target="_blank"
+                                    rel="noreferrer"
                                     href="https://www.goodreads.com/book/show/53364191-the-franklin-family-odyssey-homesteading-in-alaska">
                                     <FontAwesomeIcon 
                                         className='font-awesome'

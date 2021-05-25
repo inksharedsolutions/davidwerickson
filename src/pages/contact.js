@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import Inputs from "../components/Inputs/input"
 import Banner from '../components/banner'
+import { Helmet } from 'react-helmet'
 
 const Contact = (props)=>{
 
@@ -30,6 +31,7 @@ const Contact = (props)=>{
 
     return(
 		<Layout extPath={false}>
+			<Helmet title="Contact | David Erickson" />
             <Banner 
                     spanFirst={`Get in`}
                     contextHeading={`Touch`} 
@@ -75,10 +77,11 @@ const Contact = (props)=>{
 
 						<div className="columns">
 							<div className="column is-full" id="textAreaContainer">
-								<label> Message	</label>
+								<label htmlFor="message"> Message	</label>
 						          <textarea type="text" name='message' 
 							           className="textArea"
 							           placeholder='Message'
+									   id="message"
 							           required />
 		
 
